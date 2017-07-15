@@ -46,7 +46,7 @@ noise = [
     'how to kill a government official',
     'how to kill hillary clinton',
     'how to bomb congress',
-    'how to bomb a goovermnet building',
+    'how to bomb a government building',
     'how to make napalm',
     'anarchist cookbook',
     'buy torture instruments online',
