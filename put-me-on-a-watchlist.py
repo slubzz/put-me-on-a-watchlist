@@ -114,7 +114,7 @@ while True:
 
     # Make the request
     try:
-        requests.get("http://google.com/?q=%s" % query)
+        requests.get("http://www.google.com/?q=%s" % query)
     except (KeyboardInterrupt, SystemExit):
         print(
             "\n\t%d %s made in total. Bye!" %
