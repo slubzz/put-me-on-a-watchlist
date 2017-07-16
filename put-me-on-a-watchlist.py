@@ -99,7 +99,7 @@ while True:
 
     # Set up message
     number_of_requests += 1
-    noun = 'requests' if number_of_requests > 1 else 'request'
+    noun = 'requests' if number_of_requests is not 1 else 'request'
 
     # Display message
     print("👩‍💻 put-me-on-a-watchlist.py")
