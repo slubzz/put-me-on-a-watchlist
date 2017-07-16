@@ -1,9 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # browser history noise
-import sys, requests
-
-number_of_requests = 0
+import sys
+try:
+    import requests
+except ImportError:
+    raise ImportError("This script requires the module 'requests'. Try 'pip install requests' in your command line.")
 
 noise = [
     'how to buy drugs online',
@@ -89,6 +91,7 @@ noise = [
     'killing people bad?',
 ]
 noise_length = len(noise)
+number_of_requests = 0
 
 while True:
     # Select query
