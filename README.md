@@ -8,12 +8,12 @@ Dragnet surveillance and other ridiculous bullshit are making it possible for go
 ## Running the script
 You need Python on your system. Then go to the directory where you downloaded the script and type `python put-me-on-a-watchlist.py` in a Terminal or Command Prompt.
 
-## Running in Docker
-
+## Docker support
+Want to pollute your data profile on a Larger Scale? For some reason this script has Docker support. (Thanks [@johanot](https://github.com/johanot)!)
 Build the container: `docker build -t put-me-on-a-watchlist .`
 Run it: `docker run -t --rm put-me-on-a-watchlist`
 
-If you are scared at first, you can do a dry-run without network: `docker run -t --rm --net none put-me-on-a-watchlist`
+Want to test first so you still have time to arrange an escape plan for when the cops show up? You can do a dry-run without network: `docker run -t --rm --net none put-me-on-a-watchlist`
 
 ## Can I talk to you about this script?
 Sure, tweet [@neufv_txt](https://twitter.com/n_eufv_txt).
