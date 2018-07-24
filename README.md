@@ -16,4 +16,4 @@ Run it: `docker run -t --rm put-me-on-a-watchlist`
 Want to test first so you still have time to arrange an escape plan for when the cops show up? You can do a dry-run without network: `docker run -t --rm --net none put-me-on-a-watchlist`
 
 ## Can I talk to you about this script?
-Sure, tweet [@neufv_txt](https://twitter.com/n_eufv_txt).
+Sure, tweet [@neufv_txt](https://twitter.com/neufv_txt).
