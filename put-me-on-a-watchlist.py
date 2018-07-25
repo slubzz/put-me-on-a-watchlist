@@ -125,6 +125,13 @@ noise = [
     'mercenary training camps syria',
     'buy ghb tor',
     'how to lace fentanyl in xanax',
+    'javascript operating system kernel',
+    'javascript bootloader',
+    'unabomber bomb replica',
+    'unabomber manifesto',
+    'unabomber was right',
+    'aids bioweapon manual'
+    '10 weird ways to lace meth with aids'
 ]
 noise_length = len(noise)
 number_of_requests = 0
